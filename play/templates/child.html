@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    Some content in here
+    {{ blahblah }}
+    {% block morecontent %}
+        <br> inside more content
+    {% endblock morecontent %}
+    
+{% endblock content %}
